@@ -1,0 +1,34 @@
+name: dbSNP_NCBI
+channels:
+  - anaconda
+  - bioconda
+  - defaults
+dependencies:
+  - bzip2=1.0.8
+  - ca-certificates=2024.3.11
+  - expat=2.6.2
+  - libcxx=14.0.6
+  - libffi=3.4.4
+  - ncurses=6.4
+  - openssl=3.0.13
+  - pip=23.3
+  - python=3.12.3
+  - readline=8.2
+  - setuptools=68.2.2
+  - sqlite=3.41.2
+  - tk=8.6.12
+  - wheel=0.41.2
+  - xz=5.4.6
+  - zlib=1.2.13
+  - pip:
+      - et-xmlfile==1.1.0
+      - numpy==1.26.4
+      - openpyxl==3.1.2
+      - pandas==2.2.2
+      - python-dateutil==2.9.0.post0
+      - pytz==2024.1
+      - six==1.16.0
+      - tzdata==2024.1
+      - urllib3==2.2.1
+      - xlrd==2.0.1
+prefix: /Users/wangb10/anaconda3/envs/dbSNP_NCBI
