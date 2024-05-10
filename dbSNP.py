@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(
     prog='ezSNP: Read-in a list of the SNP, output MAFs', 
     description='Query the SNP from NCBI server', 
     epilog= 'Bo Wang Ph.D., https://github.com/pop3www/dbSNP2NCBI')
-parser.add_argument('Input_csv',  help='Input SNP list (in csv format)')
+parser.add_argument('Input_excel',  help='Input SNP list (in excel format)')
 parser.add_argument('Pause_Timer', type=float, help='An pause timer to avoid server overload, unit="s"')
 
 args = parser.parse_args()
