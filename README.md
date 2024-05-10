@@ -13,7 +13,7 @@
     Query the SNP from NCBI server
 
     positional arguments:
-      Input_csv    Input SNP list (in csv format)
+      Input_excel    Input SNP list (in excel format)
       Pause_Timer  An pause timer to avoid server overload, unit="s"
 
     options:
